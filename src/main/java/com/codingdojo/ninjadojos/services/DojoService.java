@@ -20,9 +20,11 @@ public class DojoService {
 		return (List<Dojo>) dojoRepository.findAll();
 	}
 	
+	/*
 	public List<Dojo> allDojosNullNinjas(){
 		return dojoRepository.findByNinjaIsNull();
 	}
+	*/
 	
 	public Dojo addDojo(Dojo d) {
 		return dojoRepository.save(d);
